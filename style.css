@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    align:center;
+}
+
+.navbar{
+    background-color: #0F1111;
+    height: 60px;
+    display:flex;
+}
+
+.box1{
+    height:60px;
+    display: flex;
+    align-items: center;
+
+}
+#logo{
+    height:45px;
+    width:129px;
+}
