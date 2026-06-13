@@ -9,13 +9,28 @@
     display:flex;
 }
 
-.box1{
+.block1{
     height:60px;
     display: flex;
     align-items: center;
 
 }
+
 #logo{
     height:45px;
     width:129px;
+}
+
+.block2{
+    height:60px;
+    width:185px;
+}
+
+#span1{
+    font-color: #CCCCCC;
+    font-size:0.85rem;
+}
+#span2{
+    font-color:white;
+    font-size:1rem;
 }
