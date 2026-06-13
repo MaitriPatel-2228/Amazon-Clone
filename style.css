@@ -1,6 +1,7 @@
 *{
     margin:0;
     align:center;
+    font-family: Arial;
 }
 
 .navbar{
@@ -26,11 +27,17 @@
     width:185px;
 }
 
-#span1{
-    font-color: #CCCCCC;
+#line1{
+    color: #CCCCCC;
     font-size:0.85rem;
 }
-#span2{
-    font-color:white;
+#line2{
+    color:white;
     font-size:1rem;
+}
+
+.fa-solid fa-location-dot{
+    height:10px;
+    width: 10px;
+    color:aliceblue;
 }
