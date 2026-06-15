@@ -9,7 +9,7 @@
     height: 3.75rem;
     display:flex;
     justify-content: space-between;
-    width:device-width;
+    width:100%;
 }
 
 .block1{
