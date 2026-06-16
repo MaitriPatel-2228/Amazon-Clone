@@ -4,16 +4,29 @@
     font-family: Arial;
 }
 
+#header{
+    position: fixed;
+}
 .navbar{
     background-color: #0F1111;
-    height: 3.75rem;
+    height: 3.4rem;
     display:flex;
-    justify-content: space-between;
-    width:100%;
+    justify-content:space-around;
+    width:110%;
+    padding : 0.25rem;
+    align-content: center;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .block1{
-    height:3.75rem;
+    height:3.4rem;
     display: flex;
     align-items: center;
 
@@ -25,10 +38,13 @@
 }
 
 .block2{
-    height:3.75rem;
+    height:3.4rem;
     width:11.56rem;
-    display:inline-block;
-    margin-top: 0.625rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     
     
 }
@@ -36,7 +52,7 @@
 #line1{
     color: #CCCCCC;
     font-size:0.85rem;
-    margin-left: 1.25rem;
+    margin-left: 2rem;
 }
 #line2{
     color:white;
@@ -54,20 +70,20 @@
 .block3{
     display: flex;
     width: 30rem;
-    height: 3.75rem;
+    height: 3.4rem;
     align-items: center;
 
 }
 
 #drop-down{
     width: 2.81rem;
-    height: 2.54rem;
+    height: 2.45rem;
   
 }
 
 #block3_select{
     width: 2.81rem;
-    height :2.54rem;
+    height :2.50rem;
     text-align: center;
     border-top-left-radius: 0.2rem;
     border-bottom-left-radius: 0.2rem;
@@ -76,8 +92,8 @@
 }
 
 #searchinput{
-    height:2.34rem;
-    width:13.75rem;
+    height:2.36rem;
+    width:24rem;
     border: 0rem;
 }
 
@@ -91,4 +107,82 @@
     font-size: 1.25rem;
     border-top-right-radius:0.2rem;
     border-bottom-right-radius:0.2rem;
+}
+
+.block4{
+    height:3.4rem;
+    width:10rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+  
+}
+
+#line1_4{
+    color: #CCCCCC;
+    font-size:0.85rem;
+
+}
+
+#line2_4{
+    color: white;
+    font-style: bold;
+    margin-left: 3rem;
+  
+}
+
+#select_4{
+    background-color: transparent;
+    color: white;
+    border : 0px;
+      font-size:1rem;
+
+
+}
+
+.block5{
+     height:3.4rem;
+    width:6rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+}
+#line1_5{
+    color: #CCCCCC;
+    font-size:0.85rem;
+
+}
+
+#line2_5{
+    color: white;
+    margin-left: 1rem;
+}
+
+.block6{
+    display: flex;
+    height:3.4rem;
+    width:5rem;
+    color:white;
+    align-items: center;
+    justify-content:center;
+}
+
+#line1_6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+
+}
+#cart{
+    font-size:1rem;
+    display: flex;
+    
+}
+.fa-solid fa-cart-shopping{
+    color:white;
 }
