@@ -39,3 +39,12 @@
     width:8rem;
 }
 
+#main2{
+    height : 3.4rem;
+    display:flex;
+}
+#locationlogo{
+    dislay:flex;
+    align-items:bottom;
+    color:white;
+}
