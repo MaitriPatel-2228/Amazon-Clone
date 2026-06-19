@@ -42,13 +42,14 @@
 #main2{
     height : 3.4rem;
     display:flex;
-    align-items:bottom;
+    align-items:center;
 }
 
 #locationlogo{
     dislay:flex; 
     color:white;
 }
+
 .fa-solid fa-location-dot{
     display:flex;
     height:0.9rem;
