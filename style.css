@@ -46,12 +46,12 @@
 }
 
 #locationlogo{
-    dislay:flex; 
+    dislay:inline; 
     color:white;
 }
 
 .fa-solid fa-location-dot{
-    display:flex;
+    display:inline;
     height:0.9rem;
     width:1.1rem;
     align-items:bottom;
