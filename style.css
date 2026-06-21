@@ -43,6 +43,7 @@
     height : 3.4rem;
     display:flex;
     align-items:center;
+    flex-wrap:wrap;
 }
 
 #locationlogo{
@@ -57,7 +58,7 @@
     align-items:bottom;
 }
 
-#line1_1{
+#line1_2{
     color: white;
 }
 
