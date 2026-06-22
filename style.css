@@ -43,7 +43,6 @@
     height : 3.4rem;
     display:flex;
     align-items:center;
-    flex-wrap:wrap;
 }
 
 #locationlogo{
@@ -65,4 +64,8 @@
 
 #line2_2{
     color: white;
+}
+
+#locationtext{
+    display:flex;
 }
