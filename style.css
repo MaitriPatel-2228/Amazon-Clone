@@ -43,6 +43,7 @@
     height : 3.4rem;
     display:flex;
     align-items:center;
+    width:7rem;
 }
 
 #locationlogo{
