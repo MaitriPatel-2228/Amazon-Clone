@@ -68,4 +68,5 @@
 
 #locationtext{
     display:flex;
+    flex-wrap:wrap;
 }
