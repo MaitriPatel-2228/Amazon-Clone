@@ -39,34 +39,42 @@
     width:8rem;
 }
 
-#main2{
+#block2{
     height : 3.4rem;
-    display:flex;
     align-items:center;
+    width:10%;
 }
 
 #locationlogo{
-    dislay:inline; 
+    dislay:flex;
+    height:60% ;
     color:white;
+    flex-direction: row;
+    align-items: end;
+    
     
 }
 
 .fa-solid fa-location-dot{
-    display:inline;
+  
     height:0.9rem;
     width:1.1rem;
-    align-items:bottom;
-}
-
-#line1_2{
-    color: white;
-}
-
-#line2_2{
-    color: white;
+    
 }
 
 #locationtext{
     display:flex;
     flex-wrap:wrap;
+  
+}
+
+#line1_2{
+    font-size: 0.8rem;
+    color:#CCCCCC;
+}
+
+#line2_2{
+    font-size: 1rem;
+    font-weight: bold;
+    color:white;
 }
