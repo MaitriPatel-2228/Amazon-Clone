@@ -45,7 +45,7 @@
 }
 
 #locationlogo{
-    dislay:flex;
+    dislay:inline;
     height:60% ;
     color:white;
     flex-direction: row;
