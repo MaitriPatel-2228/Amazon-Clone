@@ -35,17 +35,11 @@
 }
 
 #logo{
-    height:2.81rem;
-    width:8rem;
+    height:2.81ssem;
+    width:8em;
 }
-
-#block2{
-    height : 3.4rem;
-    width:10%;
+.block2{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    
 }
 
 #main2{
@@ -55,22 +49,19 @@
 }
 
 #locationlogo{
-    display:inline;
+    display:flex;
     height:60% ;
     color:white;
     flex-direction: row;
     align-items: end;
     width:5%;
     justify-self: end;
-    
+    margin-bottom: 1%;
     
 }
 
-.fa-solid fa-location-dot{
-  
+.fa-solid fa-location-dot{  
     height:0.9rem;
-
-    
 }
 
 #locationtext{
